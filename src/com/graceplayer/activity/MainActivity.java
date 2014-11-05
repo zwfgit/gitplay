@@ -372,8 +372,8 @@ public class MainActivity extends Activity {
 				}
 				else if(playmode == MainActivity.MODE_RANDOM_CYCLE)										//
 				{	
-					number=random.nextInt()%musicArrayList.size();
-				    sendBroadcastOnCommand(MusicService.COMMAND_PLAY);
+					
+				    sendBroadcastOnCommand(MusicService.COMMAND_NEXT);
 				}
 				seekBarHandler.sendEmptyMessage(PROGRESS_RESET);
 				MainActivity.this.setTitle("GracePlayer");

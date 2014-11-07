@@ -15,5 +15,7 @@
     <string name="listcycle">列表循环</string>
     <string name="singlecycle">单曲循环</string>
     <string name="randomcycle">随机播放</string>
+    
+    <string name="sleep">睡眠设置</string>
 
 </resources>
